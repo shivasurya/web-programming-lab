@@ -1,13 +1,13 @@
 h2{
-	font-style: italic;
-	font-family: fantasy;
+	
+	
 }
 p{
 	color: red;
 	font-size: 20px;
 }
 table{
-	font-family: fantasy;
+	
 	border-radius: 10px;
 	width: 100%;
 	text-align: center;
@@ -24,7 +24,6 @@ button{
 	 background: rgb(28, 184, 65); 
 	 border-radius: 10px;
 	 color: #FFF;
-	 font-family: fantasy;
 	 font-size: 15px;
 }
 .profile{
