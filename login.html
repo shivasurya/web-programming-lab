@@ -1,18 +1,53 @@
 <body onunload="confirm("Are your Sure?Want to leave!")">
 <link rel="stylesheet" type="text/css" href="custom.css">
-
+<script src="js/custom.js"></script>
 <div class="header">
 	<div style="padding:45px;">
 		<span style="font-size:50px;margin:15px;">Practo - Your Health App</span>
 	</div>
 </div>
-<div id="form">
-	<form action="profile.html">
+<script type="text/javascript">
+	
+function validateForm() {
+    var x = document.getElementById("email").value;
+    var y = document.getElementById("password").value;
+    if (x == null || x == "") {
+        alert("email must be filled out");
+        return false;
+    }
+    if (y == null || y == "") {
+        alert("password must be filled out");
+        return false;
+    }
+     if (y.length < 5) {
+        alert("password must be greater than 5");
+        return false;
+    }
+    for(var i=0; i<y.length; i++)
+      {
+        var char1 = y.charAt(i);
+        var cc = char1.charCodeAt(0);
+
+        if((cc>47 && cc<58) || (cc>64 && cc<91) || (cc>96 && cc<123))
+        {
+        	
+        }
+         else {
+         alert('password is not alphanumeric');
+         return false;
+         }
+      }
+
+    return true;
+}
+</script>
+<div id="form" >
+	<form action="profile.html" name="forms" onsubmit="return validateForm()" method="POST">
 	<label>Email :</label><br/>
-	<input type="text" name="email" placeholder="Your Email ID"  onfocus="onFocus(this)">
+	<input type="text" id="email" name="email" placeholder="Your Email ID"  onfocus="onFocus(this)"  required>
 	<br/>
 	<label>Password :</label><br/>
-	<input type="password" name="password" placeholder="Your Password here"  onfocus="onFocus(this)"/>
+	<input type="password" id="password" name="password" placeholder="Your Password here"  onfocus="onFocus(this)"/>
 	<br/>
 	<br/>
 	<input type="radio" value="MALE" name="gender">MALE
@@ -20,9 +55,9 @@
 	<br/> 
 	<br/>
 	<input type="checkbox">Keep Me signed in</form>
-	<input type="submit" value="Login Now!" name="submit" onClick="onClick()"/>
+	<input type="submit" value="Login Now!" name="submit"  onclick="validateForm()" />
 	<p id="para"></p>
 	</form>
 </div>
-<script src="js/custom.js"></script>
+
 </body>

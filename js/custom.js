@@ -16,12 +16,11 @@ function onLoad(){
 	document.getElementById("welcome").showModal(); 
 }
 
-function onMouseDown(){
-	
-	document.getElementById("come").showModal(); 
-}
 
-function onMouse(){
-	
-	document.getElementById("come").closeModal(); 
+function validateForm() {
+    var x = document.forms["forms"]["email"].value;
+    if (x == null || x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
 }
