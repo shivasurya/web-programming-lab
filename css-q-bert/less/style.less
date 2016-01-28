@@ -1,0 +1,246 @@
+@top: #dde345;
+@left: #56a993;
+@right: #314840;
+@path: #5a45ec;
+@bod: #fc6b19;
+@bodsh: #c9401a;
+@boddk: #222;
+@bodlt: #fff;
+
+body{
+  background: #2c2c2c;
+}
+#game{
+  margin: 30px auto;
+  position: relative;
+  width: 50px;
+}
+#qbert{
+  background: @bod;
+  height: 5px;
+  position: absolute;
+  width: 5px;
+  top: 36px;
+  left: 51px;
+  z-index: 50;
+  animation:hop .75s infinite;
+  box-shadow:
+    5px 0 0 @bod,
+    10px 0 0 @bod,
+    -5px 0 0 @bod,
+    0 5px 0 @bod,
+    5px 5px 0 @bodsh,
+    10px 5px 0 @bodsh,
+    15px 5px 0 @bodsh,
+    20px 5px 0 @bodsh,
+    -5px 5px 0 @bod,
+    -10px 5px 0 @bod,
+    0 10px 0 @bodsh,
+    5px 10px 0 @bodlt,
+    10px 10px 0 @bodlt,
+    15px 10px 0 @bodsh,
+    20px 10px 0 @bodlt,
+    25px 10px 0 @bodlt,
+    -5px 10px 0 @bod,
+    -10px 10px 0 @bodsh,
+    -15px 10px 0 @bodsh,
+    0 15px 0 @bodsh,
+    5px 15px 0 @boddk,
+    10px 15px 0 @boddk,
+    15px 15px 0 @bodsh,
+    20px 15px 0 @boddk,
+    25px 15px 0 @boddk,
+    -5px 15px 0 @bod,
+    -10px 15px 0 @bod,
+    -15px 15px 0 @bodsh,
+    0 20px 0 @bodsh,
+    5px 20px 0 @boddk,
+    10px 20px 0 @boddk,
+    15px 20px 0 @bodsh,
+    20px 20px 0 @boddk,
+    25px 20px 0 @boddk,
+    30px 20px 0 @bod,
+    -5px 20px 0 @bod,
+    -10px 20px 0 @bodsh,
+    -15px 20px 0 @bodsh,
+    -20px 20px 0 @bodsh,
+    0 25px 0 @bod,
+    5px 25px 0 @bodsh,
+    10px 25px 0 @bodsh,
+    15px 25px 0 @bod,
+    20px 25px 0 @bod,
+    25px 25px 0 @bod,
+    30px 25px 0 @bod,
+    35px 25px 0 @bod,
+    40px 25px 0 @bod,
+    45px 25px 0 @bod,
+    -5px 25px 0 @bod,
+    -10px 25px 0 @bod,
+    -15px 25px 0 @bodsh,
+    -20px 25px 0 @bodsh,
+    0 30px 0 @bod,
+    5px 30px 0 @bod,
+    10px 30px 0 @bod,
+    15px 30px 0 @bod,
+    20px 30px 0 @bod,
+    25px 30px 0 @bod,
+    30px 30px 0 @bod,
+    35px 30px 0 @bod,
+    40px 30px 0 @bod,
+    45px 30px 0 @bod,
+    50px 30px 0 @bod,
+    -5px 30px 0 @bod,
+    -10px 30px 0 @bodsh,
+    -15px 30px 0 @bodsh,
+    -20px 30px 0 @bodsh,
+    0 35px 0 @bod,
+    5px 35px 0 @bodsh,
+    10px 35px 0 @bod,
+    15px 35px 0 @bodsh,
+    20px 35px 0 @bod,
+    25px 35px 0 @bodsh,
+    30px 35px 0 @bodsh,
+    35px 35px 0 @bodsh,
+    40px 35px 0 @bod,
+    45px 35px 0 @bod,
+    50px 35px 0 @bod,
+    55px 35px 0 @bod,
+    -5px 35px 0 @bodsh,
+    -10px 35px 0 @bod,
+    -15px 35px 0 @bodsh,
+    -20px 35px 0 @bodsh,
+    0 40px 0 @bodsh,
+    5px 40px 0 @bodsh,
+    10px 40px 0 @bodsh,
+    15px 40px 0 @bodsh,
+    20px 40px 0 @bodsh,
+    35px 40px 0 @bodsh,
+    40px 40px 0 @bodsh,
+    45px 40px 0 @boddk,
+    50px 40px 0 @boddk,
+    55px 40px 0 @bod,
+    -5px 40px 0 @bodsh,
+    -10px 40px 0 @bodsh,
+    -15px 40px 0 @bodsh,
+    0 45px 0 @bodsh,
+    5px 45px 0 @bodsh,
+    10px 45px 0 @bodsh,
+    15px 45px 0 @bodsh,
+    20px 45px 0 @bodsh,
+    40px 45px 0 @bodsh,
+    45px 45px 0 @boddk,
+    50px 45px 0 @boddk,
+    55px 45px 0 @bod,
+    -5px 45px 0 @bodsh,
+    -10px 45px 0 @bodsh,
+    0 50px 0 @bodsh,
+    5px 50px 0 @bodsh,
+    10px 50px 0 @bodsh,
+    15px 50px 0 @bodsh,
+    40px 50px 0 @bodsh,
+    45px 50px 0 @bodsh,
+    50px 50px 0 @bodsh,
+    55px 50px 0 @bod,
+    -5px 50px 0 @bodsh,
+    -5px 55px 0 @bodsh,
+    15px 55px 0 @bodsh,
+    -5px 60px 0 @bodsh,
+    15px 60px 0 @bodsh,
+    0px 65px 0 @bod,
+    -5px 65px 0 @bodsh,
+    -10px 65px 0 @bod,
+    15px 65px 0 @bodsh,
+    20px 65px 0 @bod,
+    -5px 70px 0 @bod,
+    0px 70px 0 @bod,
+    5px 70px 0 @bod,
+    15px 70px 0 @bod,
+    20px 70px 0 @bod,
+    25px 70px 0 @bod,
+    30px 70px 0 @bod;
+}
+#qbert:before{
+  content: '\0020';
+  border: solid 14px transparent;
+  border-left: 0;
+  border-right-color: @bodlt;
+  display: block;
+  oveflow: hidden;
+  position: absolute;
+  top: -12px;
+  left: 46px;
+  transform: rotate(-30deg);
+}
+#qbert:after{
+  content: 'S@#%$!';
+  background: @bodlt;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding: 15px 20px;
+  position: absolute;
+  left: 50px;
+  top: -30px;
+  border-radius: 50%;
+}
+#pyramid{
+  height: 50px;
+  width: 50px;
+  background: @top;
+  transform: rotate(45deg);
+  box-shadow:
+    30px 80px 0 @top,
+    80px 30px 0 @path,
+    60px 160px 0 @path, 
+    160px 60px 0 @path,
+    110px 110px 0 @path,
+    90px 240px 0 @path,
+    240px 90px 0 @top,
+    140px 190px 0 @top,
+    190px 140px 0 @top;
+}
+#pyramid:before{
+  content: '';
+  height: 50px;
+  width: 30px;
+  background: @right;
+  position: absolute;
+  top: 15px;
+  left: 50px;
+  transform: skew(0deg, 45deg);
+  box-shadow:
+    30px 50px 0 @right,
+    80px -50px 0 @right,
+    60px 100px 0 @right,
+    160px -100px 0 @right,
+    110px 0 0 @right,
+    140px 50px 0 @right,
+    90px 150px 0 @right,
+    190px -50px 0 @right,
+    240px -150px 0 @right;
+}
+#pyramid:after{
+  content: '';
+  height: 30px;
+  width: 50px;
+  background: @left;
+  position: absolute;
+  top: 50px;
+  left: 15px;
+  transform: skew(45deg, 0deg);
+  box-shadow:
+    -50px 80px 0 @left,
+    50px 30px 0 @left,
+    100px 60px 0 @left,
+    -100px 160px 0 @left,
+    0 110px 0 @left,
+    50px 140px 0 @left,
+    150px 90px 0 @left,
+    -50px 190px 0 @left,
+    -150px 240px 0 @left;
+}
+@keyframes hop{
+  from {top:36px;}
+  to {top:20px;}
+}
+

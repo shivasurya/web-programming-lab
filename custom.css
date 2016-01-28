@@ -1,0 +1,57 @@
+body{
+			margin:0px;
+			padding:0px;
+			
+		}
+		.header{
+			text-align: center;
+			width: 100%;
+			height: 150px;
+			background-color: #0077b5;
+			color: white;
+		}
+
+#form {
+    background-color: #FFF;
+    height: 600px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px;
+    text-align:center;
+}
+label {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #333;
+    height: 20px;
+    width: 200px;
+    margin-top: 15px;    
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+input[type="text"] {
+    height: 30px;
+    width: 300px;
+    border: 1px solid #000;
+    float: left;
+}
+
+input[type="password"] {
+    height: 30px;
+    width: 300px;
+    border: 1px solid #000;
+    float: left;
+}
+input[type=button] {
+    float:none;
+    color: #3aaf85;
+    background-color: #3aaf85;
+}
+.button{
+	color: #3aaf85;
+}

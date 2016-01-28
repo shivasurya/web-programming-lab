@@ -1,0 +1,80 @@
+body {
+  background: #2c2c2c;
+}
+#game {
+  margin: 30px auto;
+  position: relative;
+  width: 50px;
+}
+#qbert {
+  background: #fc6b19;
+  height: 5px;
+  position: absolute;
+  width: 5px;
+  top: 36px;
+  left: 51px;
+  z-index: 50;
+  animation: hop .75s infinite;
+  box-shadow: 5px 0 0 #fc6b19, 10px 0 0 #fc6b19, -5px 0 0 #fc6b19, 0 5px 0 #fc6b19, 5px 5px 0 #c9401a, 10px 5px 0 #c9401a, 15px 5px 0 #c9401a, 20px 5px 0 #c9401a, -5px 5px 0 #fc6b19, -10px 5px 0 #fc6b19, 0 10px 0 #c9401a, 5px 10px 0 #ffffff, 10px 10px 0 #ffffff, 15px 10px 0 #c9401a, 20px 10px 0 #ffffff, 25px 10px 0 #ffffff, -5px 10px 0 #fc6b19, -10px 10px 0 #c9401a, -15px 10px 0 #c9401a, 0 15px 0 #c9401a, 5px 15px 0 #222222, 10px 15px 0 #222222, 15px 15px 0 #c9401a, 20px 15px 0 #222222, 25px 15px 0 #222222, -5px 15px 0 #fc6b19, -10px 15px 0 #fc6b19, -15px 15px 0 #c9401a, 0 20px 0 #c9401a, 5px 20px 0 #222222, 10px 20px 0 #222222, 15px 20px 0 #c9401a, 20px 20px 0 #222222, 25px 20px 0 #222222, 30px 20px 0 #fc6b19, -5px 20px 0 #fc6b19, -10px 20px 0 #c9401a, -15px 20px 0 #c9401a, -20px 20px 0 #c9401a, 0 25px 0 #fc6b19, 5px 25px 0 #c9401a, 10px 25px 0 #c9401a, 15px 25px 0 #fc6b19, 20px 25px 0 #fc6b19, 25px 25px 0 #fc6b19, 30px 25px 0 #fc6b19, 35px 25px 0 #fc6b19, 40px 25px 0 #fc6b19, 45px 25px 0 #fc6b19, -5px 25px 0 #fc6b19, -10px 25px 0 #fc6b19, -15px 25px 0 #c9401a, -20px 25px 0 #c9401a, 0 30px 0 #fc6b19, 5px 30px 0 #fc6b19, 10px 30px 0 #fc6b19, 15px 30px 0 #fc6b19, 20px 30px 0 #fc6b19, 25px 30px 0 #fc6b19, 30px 30px 0 #fc6b19, 35px 30px 0 #fc6b19, 40px 30px 0 #fc6b19, 45px 30px 0 #fc6b19, 50px 30px 0 #fc6b19, -5px 30px 0 #fc6b19, -10px 30px 0 #c9401a, -15px 30px 0 #c9401a, -20px 30px 0 #c9401a, 0 35px 0 #fc6b19, 5px 35px 0 #c9401a, 10px 35px 0 #fc6b19, 15px 35px 0 #c9401a, 20px 35px 0 #fc6b19, 25px 35px 0 #c9401a, 30px 35px 0 #c9401a, 35px 35px 0 #c9401a, 40px 35px 0 #fc6b19, 45px 35px 0 #fc6b19, 50px 35px 0 #fc6b19, 55px 35px 0 #fc6b19, -5px 35px 0 #c9401a, -10px 35px 0 #fc6b19, -15px 35px 0 #c9401a, -20px 35px 0 #c9401a, 0 40px 0 #c9401a, 5px 40px 0 #c9401a, 10px 40px 0 #c9401a, 15px 40px 0 #c9401a, 20px 40px 0 #c9401a, 35px 40px 0 #c9401a, 40px 40px 0 #c9401a, 45px 40px 0 #222222, 50px 40px 0 #222222, 55px 40px 0 #fc6b19, -5px 40px 0 #c9401a, -10px 40px 0 #c9401a, -15px 40px 0 #c9401a, 0 45px 0 #c9401a, 5px 45px 0 #c9401a, 10px 45px 0 #c9401a, 15px 45px 0 #c9401a, 20px 45px 0 #c9401a, 40px 45px 0 #c9401a, 45px 45px 0 #222222, 50px 45px 0 #222222, 55px 45px 0 #fc6b19, -5px 45px 0 #c9401a, -10px 45px 0 #c9401a, 0 50px 0 #c9401a, 5px 50px 0 #c9401a, 10px 50px 0 #c9401a, 15px 50px 0 #c9401a, 40px 50px 0 #c9401a, 45px 50px 0 #c9401a, 50px 50px 0 #c9401a, 55px 50px 0 #fc6b19, -5px 50px 0 #c9401a, -5px 55px 0 #c9401a, 15px 55px 0 #c9401a, -5px 60px 0 #c9401a, 15px 60px 0 #c9401a, 0px 65px 0 #fc6b19, -5px 65px 0 #c9401a, -10px 65px 0 #fc6b19, 15px 65px 0 #c9401a, 20px 65px 0 #fc6b19, -5px 70px 0 #fc6b19, 0px 70px 0 #fc6b19, 5px 70px 0 #fc6b19, 15px 70px 0 #fc6b19, 20px 70px 0 #fc6b19, 25px 70px 0 #fc6b19, 30px 70px 0 #fc6b19;
+}
+#qbert:before {
+  content: '\0020';
+  border: solid 14px transparent;
+  border-left: 0;
+  border-right-color: #ffffff;
+  display: block;
+  oveflow: hidden;
+  position: absolute;
+  top: -12px;
+  left: 46px;
+  transform: rotate(-30deg);
+}
+#qbert:after {
+  content: 'S@#%$!';
+  background: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding: 15px 20px;
+  position: absolute;
+  left: 50px;
+  top: -30px;
+  border-radius: 50%;
+}
+#pyramid {
+  height: 50px;
+  width: 50px;
+  background: #dde345;
+  transform: rotate(45deg);
+  box-shadow: 30px 80px 0 #dde345, 80px 30px 0 #5a45ec, 60px 160px 0 #5a45ec, 160px 60px 0 #5a45ec, 110px 110px 0 #5a45ec, 90px 240px 0 #5a45ec, 240px 90px 0 #dde345, 140px 190px 0 #dde345, 190px 140px 0 #dde345;
+}
+#pyramid:before {
+  content: '';
+  height: 50px;
+  width: 30px;
+  background: #314840;
+  position: absolute;
+  top: 15px;
+  left: 50px;
+  transform: skew(0deg, 45deg);
+  box-shadow: 30px 50px 0 #314840, 80px -50px 0 #314840, 60px 100px 0 #314840, 160px -100px 0 #314840, 110px 0 0 #314840, 140px 50px 0 #314840, 90px 150px 0 #314840, 190px -50px 0 #314840, 240px -150px 0 #314840;
+}
+#pyramid:after {
+  content: '';
+  height: 30px;
+  width: 50px;
+  background: #56a993;
+  position: absolute;
+  top: 50px;
+  left: 15px;
+  transform: skew(45deg, 0deg);
+  box-shadow: -50px 80px 0 #56a993, 50px 30px 0 #56a993, 100px 60px 0 #56a993, -100px 160px 0 #56a993, 0 110px 0 #56a993, 50px 140px 0 #56a993, 150px 90px 0 #56a993, -50px 190px 0 #56a993, -150px 240px 0 #56a993;
+}
+@keyframes hop {
+  from {
+    top: 36px;
+  }
+  to {
+    top: 20px;
+  }
+}
