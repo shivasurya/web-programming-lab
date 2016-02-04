@@ -1,0 +1,10 @@
+doctor{
+	font-family: monospace;
+	color: red;
+	font-size: 20px;
+	 display: block;
+}
+name {
+	font-family: cursive;
+	color: blue;
+}
