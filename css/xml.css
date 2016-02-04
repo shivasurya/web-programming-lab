@@ -1,0 +1,28 @@
+brealfast_menu{
+  margin: 0 auto;
+  padding: inherit;
+  float: left;
+}
+
+food{
+  margin: 0 auto;
+  padding: inherit;
+
+  display: block;
+}
+
+name{
+  color: blue;
+}
+
+price{
+  color: red;
+}
+
+description{
+  color: black;
+}
+
+calories{
+  color: orange;
+}
