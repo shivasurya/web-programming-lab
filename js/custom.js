@@ -16,6 +16,7 @@ function onLoad(){
 	document.getElementById("welcome").showModal(); 
 }
 
+<<<<<<< HEAD
 function onMouseDown(){
 	
 	document.getElementById("come").showModal(); 
@@ -24,4 +25,13 @@ function onMouseDown(){
 function onMouse(){
 	
 	document.getElementById("come").closeModal(); 
+=======
+
+function validateForm() {
+    var x = document.forms["forms"]["email"].value;
+    if (x == null || x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+>>>>>>> 6a938d15d75bce10b12d0f54f9d8bb8c8018231e
 }

@@ -1,0 +1,31 @@
+h2{
+	
+	
+}
+p{
+	color: red;
+	font-size: 20px;
+}
+table{
+	
+	border-radius: 10px;
+	width: 100%;
+	text-align: center;
+}
+th{
+	background-color: #1a8cff;
+	color: #FFF;
+}
+td,th{
+	height: 50px;
+}
+button{
+	 height: 40px;
+	 background: rgb(28, 184, 65); 
+	 border-radius: 10px;
+	 color: #FFF;
+	 font-size: 15px;
+}
+.profile{
+	 background: rgb(202, 60, 60);
+}
